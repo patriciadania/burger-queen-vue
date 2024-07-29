@@ -26,4 +26,6 @@ Desenvolvimento Responsivo: Criar uma experiência de usuário que se adapte a d
 Integração de API: Lidar com a integração de uma API RESTful, enfrentando desafios de autenticação e segurança na comunicação cliente-servidor.
 
 # Conclusão
+
 O Montador de Hambúrguer não é apenas uma ferramenta para criar hambúrgueres, mas também uma plataforma que oferece uma experiência interativa e personalizada para os usuários. Com uma interface amigável e um conjunto abrangente de funcionalidades, esperamos tornar a criação de hambúrgueres tão divertida e fácil quanto saboreá-los.
+

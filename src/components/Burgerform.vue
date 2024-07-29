@@ -86,7 +86,7 @@ export default {
       this.msg = `Pedido Nº ${res.id} realizado com sucesso`
 
       // clear message
-      setTimeout(() => this.msg = "", 3000)
+      setTimeout(() => this.msg = "", 3000);
 
       // limpar campos
       this.nome = ""
