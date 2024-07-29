@@ -65,51 +65,30 @@
   },
   "status": [
     {
-      "id": "1",
+      "id": 1,
       "tipo": "Solicitado"
     },
     {
-      "id": "2",
+      "id": 2,
       "tipo": "Em produção"
     },
     {
-      "id": "3",
+      "id": 3,
       "tipo": "Finalizado"
     }
   ],
   "burgers": [
     {
-      "id": "482d",
-      "nome": "Patricia Adania de Oliveira",
-      "carne": "Alcatra",
-      "pao": "Parmesão e Orégano",
+      "nome": "Patricia",
+      "carne": "Picanha",
+      "pao": "Italiano Branco",
       "opcionais": [
         "Bacon",
         "Salame",
         "Cebola roxa"
       ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "eba1",
-      "nome": "Patricia Adania de Oliveira",
-      "carne": "Alcatra",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "a206",
-      "nome": "gata",
-      "carne": "Maminha",
-      "pao": "Integral",
-      "opcionais": [
-        "Bacon",
-        "Salame"
-      ],
-      "status": "Solicitado"
+      "status": "Finalizado",
+      "id": 1
     }
   ]
 }

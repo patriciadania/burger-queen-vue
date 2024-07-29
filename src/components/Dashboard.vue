@@ -1,5 +1,7 @@
 <template>
     <div id="burger-table" v-if="burgers">
+      <Message :msg="msg" v-show="msg" />
+
       <div>
         <div id="burger-table-heading">
           <div class="order-id">#:</div>
@@ -17,12 +19,14 @@
           <div>{{ burger.pao }}</div>
           <div>{{ burger.carne }}</div>
           <div>
-            <ul v-for="(opcional, index) in burger.opcionais" :key="index">
-              <li>{{ opcional }}</li>
+            <ul>
+              <li v-for="(opcional, index) in burger.opcionais" :key="index">
+                {{ opcional }}</li>
             </ul>
           </div>
           <div>
             <select name="status" class="status" @change="updateBurger($event, burger.id)">
+             <option value="" >Selecione</option>
               <option :value="s.tipo" v-for="s in status" :key="s.id" :selected="burger.status == s.tipo">
                 {{ s.tipo }}
               </option>
@@ -37,14 +41,20 @@
     </div>
   </template>
   <script>
+  import Message from './Message'
+
     export default {
       name: "Dashboard",
       data() {
         return {
           burgers: null,
           burger_id: null,
-          status: []
+          status: [],
+          msg: null
         }
+      },
+      components: {
+        Message
       },
       methods: {
         async getPedidos() {
@@ -74,6 +84,10 @@
           });
   
           const res = await req.json()
+          this.msg = `Pedido removido com sucesso!!`
+
+
+         setTimeout(() => this.msg = "", 3000);
   
           this.getPedidos()
   
@@ -92,7 +106,8 @@
   
           const res = await req.json()
   
-          console.log(res)
+          this.msg = `Pedido Nº ${res.id} foi atualizado para ${res.status}!!`
+           setTimeout(() => this.msg = "", 3000);
   
         }
       },
