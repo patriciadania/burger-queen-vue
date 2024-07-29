@@ -9,7 +9,7 @@ O Montador de Hambúrguer é uma aplicação web interativa que permite aos usu�
 - Pedidos e Gestão: Os pedidos podem ser feitos diretamente pela plataforma, com funcionalidades para editar, cancelar e gerenciar pedidos em andamento.
 - Responsividade: Design responsivo que garante uma experiência otimizada em dispositivos móveis, tablets e desktops.
 
-#Tecnologias Utilizadas
+# Tecnologias Utilizadas
 - Frontend: O projeto foi desenvolvido usando Vue.js, um framework progressivo para a construção de interfaces de usuário. Vue.js é utilizado para gerenciar o estado da aplicação e renderizar componentes de forma eficiente.
 - Vue Router: Navegação fluida entre diferentes seções da aplicação, utilizando o Vue Router para roteamento das páginas.
 - CSS/SCSS: Estilização moderna e responsiva utilizando SCSS para facilitar a manutenção e extensão do design.
