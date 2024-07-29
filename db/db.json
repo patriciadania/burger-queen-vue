@@ -79,51 +79,36 @@
   ],
   "burgers": [
     {
-      "nome": "Matheus Battisti",
-      "carne": "Picanha",
-      "pao": "Italiano Branco",
+      "id": "482d",
+      "nome": "Patricia Adania de Oliveira",
+      "carne": "Alcatra",
+      "pao": "Parmesão e Orégano",
       "opcionais": [
         "Bacon",
         "Salame",
         "Cebola roxa"
       ],
-      "status": "Finalizado",
-      "id": "1"
-    },
-    {
-      "id": "6b9c",
-      "nome": "",
-      "carne": "",
-      "pao": "",
-      "opcionais": [],
       "status": "Solicitado"
     },
     {
-      "id": "333a",
-      "nome": "patricia",
+      "id": "eba1",
+      "nome": "Patricia Adania de Oliveira",
       "carne": "Alcatra",
       "pao": "Italiano Branco",
       "opcionais": [
-        "0"
+        "Bacon"
       ],
       "status": "Solicitado"
     },
     {
-      "id": "5f6a",
-      "nome": "patricia",
-      "carne": "Alcatra",
-      "pao": "Italiano Branco",
+      "id": "a206",
+      "nome": "gata",
+      "carne": "Maminha",
+      "pao": "Integral",
       "opcionais": [
-        "0"
+        "Bacon",
+        "Salame"
       ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "d456",
-      "nome": null,
-      "carne": null,
-      "pao": null,
-      "opcionais": [],
       "status": "Solicitado"
     }
   ]
